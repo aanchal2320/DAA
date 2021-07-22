@@ -2,10 +2,10 @@
 using namespace std;
 void find_triplet(int arr[],int n)
 {
-    for(int i=n-1;i>=0;i--)
+    for(int i=0;i<n;i++)
     {
         int start=0;
-        int last=i-1;
+        int last=n-1;
         while(start<last)
         {
             if(arr[start]+arr[last]==arr[i])
