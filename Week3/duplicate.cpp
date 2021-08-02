@@ -48,8 +48,10 @@ int main()
     for(int i=0;i<n;i++)
     {
         if(arr[i+1]==arr[i])
-              flag=0;
-              break;
+              {
+                  flag=0;
+                 break;
+              }
     }
    if(flag==0)
     cout<<"YES";
